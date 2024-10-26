@@ -1,0 +1,43 @@
+a {
+    color: black;
+    text-decoration: none;
+    font-family: "Arima";
+           font-style: normal;
+           font-weight: 300;
+           text-align: left;
+ }
+
+.importants {
+    color: #a5b4fc;
+ }
+
+h1 { 
+        color: #4aa3a2;
+        font-family: "Lobster", sans-serif;
+        font-weight: 3.5em;
+        font-style: normal;
+    }
+   
+h2 {
+    color: #a7e0e0;
+    font-family: "Lobster", sans-serif;
+    font-weight: 3.2em;
+    font-style: normal;
+}
+
+p, ul  {
+        font-family: "Arima";
+        font-style: normal;
+        font-weight: 300;
+        text-align: left;
+    }
+
+body {
+    padding: 100px;
+    background-image: url(../site_web/images/ordi.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+    
