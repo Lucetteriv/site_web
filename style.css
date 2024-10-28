@@ -25,13 +25,6 @@ h2 {
     font-style: normal;
 }
 
-p, ul  {
-        font-family: "Arima";
-        font-style: normal;
-        font-weight: 300;
-        text-align: left;
-    }
-
 body {
     padding: 100px;
     background-image: url(../site_web/images/ordi.png);
@@ -40,4 +33,29 @@ body {
     background-repeat: no-repeat;
 }
 
+p, ul  {
+        font-family: "Arima";
+        font-style: normal;
+        font-weight: 300;
+        text-align: left;
+    }
+
+
+
+div {
+    background-color: white;
+}
+
+.photo {
+    justify-content: flex-end;
+    border-radius: 10px;
+}
+
+.accueil, .a_propos {
+    border-right:  black solid;
     
+}
+
+.logo {
+    border-radius: 10px;
+}
