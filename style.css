@@ -4,24 +4,21 @@
     box-sizing: border-box;
 }
 
+/* en tete de page début */
 header {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 0px 0px 20px 20px;
+    padding: 20px;
 }
 
 header ul {
     display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 header ul li {
     list-style: none;
-    
-}
-
-.logo {
-    border-radius: 20px;
-    padding: 10px;
-
 }
 
 a {
@@ -33,31 +30,24 @@ a {
            text-align: left;
  }
 
-.importants {
-    color: #a5b4fc;
- }
+.logo {
+    border-radius: 20px;
+    
 
-h1 { 
-        color: #4aa3a2;
-        font-family: "Lobster", sans-serif;
-        font-weight: 3.5em;
-        font-style: normal;
-    }
-   
-h2 {
-    color: #a7e0e0;
-    font-family: "Lobster", sans-serif;
-    font-weight: 3.2em;
-    font-style: normal;
 }
 
-p, ul  {
-        font-family: "Arima";
-        font-style: normal;
-        font-weight: 300;
-        text-align: left;
-    }
+.accueil:hover {
+    background-color: rgba(207, 87, 156, 0.5);
+    border-radius: 10px;
+}
 
+.a_propos:hover{
+    background-color: rgba(207, 87, 156, 0.5);
+    border-radius: 10px;
+}
+/* fin */
+
+/* contenu */
 body {
     background-image: url(./images/degrade.jpg);
     background-size: cover;
@@ -65,3 +55,57 @@ body {
     background-repeat: no-repeat;
 }
 
+section { 
+    padding: 20px;
+}
+h1 { 
+        color: white;
+        font-family: "Lobster", sans-serif;
+        font-weight: 3.5em;
+        font-style: normal;
+        text-decoration: underline;
+    }
+
+
+.importants {
+    color: #cf579c;
+ }
+
+
+   
+h2 {
+    color: white;
+    font-family: "Lobster", sans-serif;
+    font-weight: 3.2em;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+p, ul  {
+        font-family: "Arima";
+        font-style: normal;
+        font-weight: 300;
+        text-align: left;
+}
+
+section ul {
+    padding-left: 40px;
+}
+
+/* bas de page*/
+footer {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px 20px 0px 0px ;
+    padding: 20px;
+}
+
+
+.insta:hover {
+    background-color: rgba(207, 87, 156, 0.5);
+    border-radius: 10px;
+}
+
+.linkedin:hover {
+    background-color: rgba(207, 87, 156, 0.5);
+    border-radius: 10px;
+}
