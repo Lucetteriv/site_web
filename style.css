@@ -1,3 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0px 0px 20px 20px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+    
+}
+
+.logo {
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -8,26 +34,21 @@ a {
  }
 
 .importants {
-    color: white;
+    color: #a5b4fc;
  }
 
-h1, h2 { 
-        color: #BED3C3;
+h1 { 
+        color: #4aa3a2;
         font-family: "Lobster", sans-serif;
         font-weight: 3.5em;
         font-style: normal;
-        text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
-        -webkit-text-stroke-width: 0.2px;
-        -webkit-text-stroke-color: white;
     }
    
-
-body {
-    padding: 100px;
-    background-image: url(../site_web/images/degrade.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+h2 {
+    color: #a7e0e0;
+    font-family: "Lobster", sans-serif;
+    font-weight: 3.2em;
+    font-style: normal;
 }
 
 p, ul  {
@@ -35,35 +56,12 @@ p, ul  {
         font-style: normal;
         font-weight: 300;
         text-align: left;
-        text-justify: auto;
-    
     }
 
-
-
-div {
-    background-image: url(images/vagues.jpeg);
-    background-position-y: top;
-    background-position-x: center;
+body {
+    background-image: url(./images/degrade.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.photo {
-    justify-content: flex-end;
-    border-radius: 10px;
-}
-
-.accueil:hover, .a_propos:hover {
-    background-color: whitesmoke;
-    align-items: center;
-    border: 10px;
-    border-radius: 10px;
-    text-decoration-line: underline;
-}
-
-.logo {
-    border-radius: 20px;
-}
-
-.linkedin:hover, .insta:hover {
-    opacity: 1;
-}
