@@ -41,7 +41,12 @@ a {
     border-radius: 10px;
 }
 
-.a_propos:hover{
+.a_propos:hover {
+    background-color: rgba(207, 87, 156, 0.5);
+    border-radius: 10px;
+}
+
+.me_contacter:hover {
     background-color: rgba(207, 87, 156, 0.5);
     border-radius: 10px;
 }
@@ -97,6 +102,7 @@ footer {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 20px 20px 0px 0px ;
     padding: 20px;
+    align-items: flex-end;
 }
 
 
