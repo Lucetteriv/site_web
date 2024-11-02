@@ -63,12 +63,18 @@ body {
 section { 
     padding: 20px;
 }
+
+.titre {
+    font-weight: bold;
+}
+
 h1 { 
         color: white;
         font-family: "Lobster", sans-serif;
         font-weight: 3.5em;
         font-style: normal;
         text-decoration: underline;
+        text-align: center;
     }
 
 
@@ -84,18 +90,42 @@ h2 {
     font-weight: 3.2em;
     font-style: normal;
     text-decoration: underline;
+    text-align: center;
 }
 
 p, ul  {
         font-family: "Arima";
         font-style: normal;
         font-weight: 300;
-        text-align: left;
+        text-align: center;
 }
 
 section ul {
     padding-left: 40px;
+    list-style: none;
 }
+
+.photo { 
+    border-radius: 100px 100px 100px 100px;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+#about .card {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+
+
 
 /* bas de page*/
 footer {
