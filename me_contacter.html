@@ -17,7 +17,7 @@
             <nav class="head">
                 <ul>
                     <li>
-                        <a  href="../site_web/index.html">
+                        <a  href="./index.html">
                             <img class="logo" src="images/logo_svg.svg" alt="logo" style="width: 100px; height: 100px;"/>
                         </a> 
                     </li>
@@ -36,13 +36,26 @@
         <section>
             <h1>Me Contacter</h1>
                 <form method="get" action="">
-                   <label for="nom">Nom</label> : <input type="text" name="nom" id="nom" placeholder="ex.Strange" required><br>
-                   <label for="prenom">Prenom</label> : <input type="text" name="prenom" id="prenom" placeholder="ex.Steven" required><br>
-                   <label for="mail">E-mail</label> : <input type="email" name="mail" id="mail" required><br>
-                   <label for="objet">Objet</label> : <input type="text" name="objet" id="objet" required><br>
-                   <label for="contenu">Contenu</label> : <textarea name="contenu" id="contenu" required></textarea><br>
-                   <button id="envoyer" type="submit">Envoyer</button>
-
+                    <ul>
+                        <li>
+                            <label for="nom">Nom</label> : <input type="text" name="nom" id="nom" placeholder="ex.Strange" required autofocus><br>
+                        </li>
+                        <li>
+                             <label for="prenom">Prenom</label> : <input type="text" name="prenom" id="prenom" placeholder="ex.Steven" required><br>
+                        </li>
+                        <li>
+                            <label for="mail">E-mail</label> : <input type="email" name="mail" id="mail" required><br>
+                        </li>
+                        <li>
+                            <label for="objet">Objet</label> : <input type="text" name="objet" id="objet" required><br>
+                        </li>
+                        <li>
+                            <label for="contenu">Contenu</label> : <textarea name="contenu" id="contenu" required></textarea><br>
+                        </li>
+                        <li>
+                            <button id="envoyer" type="submit">Envoyer</button>
+                        </li>
+                    </ul>
                 </form>
             <p></p>
         </section>
